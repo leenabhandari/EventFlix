@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <com.mmi.MapmyIndiaMapView
+        android:id="@+id/map1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+
+        <Button
+            android:id="@+id/currloc1"
+            android:layout_width="83dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginBottom="34dp"
+            android:layout_marginEnd="29dp"
+            android:text="Locate me!"
+            android:theme="@style/PrimaryButton"/>
+        <fragment
+            android:id="@+id/place_autocomplete1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:name="com.google.android.gms.location.places.ui.PlaceAutocompleteFragment"
+            />
+
+
+
+
+    </com.mmi.MapmyIndiaMapView>
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FindActivity"
+    android:background="@color/colorPrimaryDarker"
+   >
+
+    <include
+        android:id="@+id/find_friends_page_toolbar"
+        layout="@layout/app_bar_layout"></include>
+
+    <!--<com.airbnb.lottie.LottieAnimationView-->
+        <!--android:id="@+id/search"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:layout_gravity="center"-->
+        <!--android:background="@color/colorPrimaryDark"-->
+        <!--app:lottie_autoPlay="true"-->
+        <!--app:lottie_fileName="search.json"-->
+        <!--app:lottie_loop="true" />-->
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/find_friends_page_toolbar"
+        android:fontFamily="@font/advent_pro"
+        android:padding="5dp"
+        android:text="Find the event:"
+        android:textColor="@android:color/holo_orange_light"
+        android:textSize="22sp" />
+
+    <EditText
+        android:id="@+id/find_user_edit11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/find_user_edit"
+        android:layout_below="@+id/textView14"
+        android:background="@drawable/inputs"
+        android:drawableLeft="@drawable/ic_person_pin_black_32dp"
+        android:ems="10"
+        android:hint=" Organizer's Name"
+        android:inputType="textPersonName"
+        android:padding="5dp"
+        android:textSize="22sp" />
+
+    <ImageButton
+        android:id="@+id/find_user_btn"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+
+
+        android:layout_alignTop="@+id/find_user_edit"
+        android:layout_marginStart="16dp"
+        android:layout_toEndOf="@+id/find_user_edit11"
+        android:src="@drawable/ic_navigate_next_black_24dp" />
+
+    <EditText
+        android:id="@+id/find_user_edit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="39dp"
+        android:layout_marginTop="104dp"
+        android:background="@drawable/inputs"
+        android:drawableLeft="@drawable/ic_event_available_black_32dp"
+        android:ems="10"
+        android:hint=" Enter Event's Name"
+        android:inputType="textPersonName"
+        android:padding="5dp"
+        android:textSize="22sp"
+        />
+
+    <ImageButton
+        android:id="@+id/find_user_btn11"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+
+
+        android:layout_alignStart="@+id/find_user_btn"
+        android:layout_alignTop="@+id/find_user_edit11"
+        android:src="@drawable/ic_navigate_next_black_24dp" />
+
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="286dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true">
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/all_users_list"
+            android:layout_width="match_parent"
+            android:layout_height="276dp" />
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/find_user_btn"
+        android:layout_marginStart="155dp"
+        android:text="OR"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:visibility="visible"
+        tools:textColor="@android:color/white" />
+
+</RelativeLayout>

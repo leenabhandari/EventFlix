@@ -1,0 +1,550 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\leena\Desktop\mapapp10\Lee_s App\app\src\main\AndroidManifest.xml:2:1-90:12
+INJECTED from C:\Users\leena\Desktop\mapapp10\Lee_s App\app\src\main\AndroidManifest.xml:2:1-90:12
+INJECTED from C:\Users\leena\Desktop\mapapp10\Lee_s App\app\src\main\AndroidManifest.xml:2:1-90:12
+INJECTED from C:\Users\leena\Desktop\mapapp10\Lee_s App\app\src\main\AndroidManifest.xml:2:1-90:12
+MERGED from [com.theartofdev.edmodo:android-image-cropper:2.7.0] C:\Users\leena\.gradle\caches\transforms-1\files-1.1\android-image-cropper-2.7.0.aar\5a66f7367f4b44029854ef9eff17e672\AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:design:27.1.1] C:\Users\leena\.gradle\caches\transforms-1\files-1.1\design-27.1.1.aar\054d995e13f1052bbc1c0c610317877b\AndroidManifest.xml:17:1-22:12
+MERGED from [gun0912.ted:tedpermission:2.2.0] C:\Users\leena\.gradle\caches\transforms-1\files-1.1\tedpermission-2.2.0.aar\ca3241bd8e5a5b440249db83b9eb4436\AndroidManifest.xml:2:1-17:12
+MERGED from [com.airbnb.android:lottie:2.0.0] C:\Users\leena\.gradle\caches\transforms-1\files-1.1\lottie-2.0.0.aar\388194aa9523944891fba5e5e4bc6a47\AndroidManifest.xml:2:1-12:12
+MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\leena\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.1.aar\9443799f02d55640c7e9421ac0e3dcdf\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support.constraint:constraint-layout:1.1.2] C:\Users\leena\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.2.aar\cb551ee7bea3b52121c4707ca2c18ecb\AndroidManifest.xml:2:1-11:12
+MERGED from [com.google.firebase:firebase-auth:11.0.2] C:\Users\leena\.gradle\caches\transforms-1\files-1.1\firebase-auth-11.0.2.aar\048e5337e6deb4cd1365660502bb2055\AndroidManifest.xml:16:1-21:12
+MERGED from [com.firebaseui:firebase-ui-database:2.1.1] C:\Users\leena\.gradle\caches\transforms-1\files-1.1\firebase-ui-database-2.1.1.aar\41a336dc32350af1a43f51c3b694bd07\AndroidManifest.xml:2:1-19:12
+MERGED from [com.google.firebase:firebase-database:11.0.2] C:\Users\leena\.gradle\caches\transforms-1\files-1.1\firebase-database-11.0.2.aar\b21583f0393c4f83ef5a40913d755672\AndroidManifest.xml:2:1-4:12
+MERGED from [com.google.firebase:firebase-storage:11.0.2] C:\Users\leena\.gradle\caches\transforms-1\files-1.1\firebase-storage-11.0.2.aar\27d03256d4a7efbaf60d68a94dfa4568\AndroidManifest.xml:2:1-4:12
+MERGED from [com.google.firebase:firebase-core:11.0.2] C:\Users\leena\.gradle\caches\transforms-1\files-1.1\firebase-core-11.0.2.aar\d19f410f9753f68da0264c2042ac9d75\AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-places:11.0.2] C:\Users\leena\.gradle\caches\transforms-1\files-1.1\play-services-places-11.0.2.aar\24fa3b59c20ac20d059579749e61a9c3\AndroidManifest.xml:16:1-19:12
+MERGED from [com.google.android.gms:play-services-maps:11.0.2] C:\Users\leena\.gradle\caches\transforms-1\files-1.1\play-services-maps-11.0.2.aar\f500428720643a0ac9c5e55f1da13eb2\AndroidManifest.xml:16:1-25:12
+MERGED from [de.hdodenhof:circleimageview:2.2.0] C:\Users\leena\.gradle\caches\transforms-1\files-1.1\circleimageview-2.2.0.aar\44b6f81a3c9699f10740bb6539903cca\AndroidManifest.xml:2:1-11:12
+MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\leena\.gradle\caches\transforms-1\files-1.1\picasso-2.71828.aar\78cefbf50d242554581c810afee5b5a0\AndroidManifest.xml:2:1-14:12
+MERGED from [com.google.android.gms:play-services-location:11.0.2] C:\Users\leena\.gradle\caches\transforms-1\files-1.1\play-services-location-11.0.2.aar\53c7c4c79c85c869ea20ad1fcc8a4708\AndroidManifest.xml:2:1-5:12
+MERGED from [com.android.support:multidex:1.0.3] C:\Users\leena\.gradle\caches\transforms-1\files-1.1\multidex-1.0.3.aar\02dc4ed7e16a50b05c908677acf73207\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:transition:27.1.1] C:\Users\leena\.gradle\caches\transforms-1\files-1.1\transition-27.1.1.aar\e8652c20e133a5423f2ef9ca9d28fbd9\AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.gms:play-services-base:11.0.2] C:\Users\leena\.gradle\caches\transforms-1\files-1.1\play-services-base-11.0.2.aar\f8751b45ebbd2ff542d3887acb64b5f4\AndroidManifest.xml:16:1-21:12
+MERGED from [com.google.firebase:firebase-database-connection:11.0.2] C:\Users\leena\.gradle\caches\transforms-1\files-1.1\firebase-database-connection-11.0.2.aar\cc142fec161b36fde80632ff3f4389e8\AndroidManifest.xml:2:1-4:12
+MERGED from [com.google.firebase:firebase-analytics:11.0.2] C:\Users\leena\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.0.2.aar\6a216e5a422e7a4433f6d784604792b5\AndroidManifest.xml:16:1-35:12
+MERGED from [com.google.firebase:firebase-analytics-impl:11.0.2] C:\Users\leena\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-11.0.2.aar\05d3b022a3647eae0f1624a522928869\AndroidManifest.xml:16:1-29:12
+MERGED from [com.google.firebase:firebase-iid:11.0.2] C:\Users\leena\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.0.2.aar\bd2387c46cd200d2075ccabe2479c2b5\AndroidManifest.xml:16:1-50:12
+MERGED from [com.google.firebase:firebase-common:11.0.2] C:\Users\leena\.gradle\caches\transforms-1\files-1.1\firebase-common-11.0.2.aar\e0701ac5d9ef5a0d5ca993c31cde6669\AndroidManifest.xml:2:1-8:12
+MERGED from [com.google.android.gms:play-services-tasks:11.0.2] C:\Users\leena\.gradle\caches\transforms-1\files-1.1\play-services-tasks-11.0.2.aar\01a70f17f5e6f0589487ffcb56132dfc\AndroidManifest.xml:2:1-5:12
+MERGED from [com.google.firebase:firebase-storage-common:11.0.2] C:\Users\leena\.gradle\caches\transforms-1\files-1.1\firebase-storage-common-11.0.2.aar\0afeb8a6554edd65665be790ac889019\AndroidManifest.xml:2:1-4:12
+MERGED from [com.google.android.gms:play-services-basement:11.0.2] C:\Users\leena\.gradle\caches\transforms-1\files-1.1\play-services-basement-11.0.2.aar\37368a38f65e4da8ab74992aff071cc6\AndroidManifest.xml:16:1-23:12
+MERGED from [com.android.support:support-v4:27.1.1] C:\Users\leena\.gradle\caches\transforms-1\files-1.1\support-v4-27.1.1.aar\25bcc553673e45bc9ac7eeccb33eb518\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-media-compat:27.1.1] C:\Users\leena\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.1.1.aar\bb15694e9ce8ca40fe11d02918eb6eac\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\leena\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.1.aar\d79ac07a84eeb0d938acb70472a54d10\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:recyclerview-v7:27.1.1] C:\Users\leena\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-27.1.1.aar\d9d562b8981c62a817cba2f8aa1be3ec\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] C:\Users\leena\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.1.1.aar\1c63f556e9ffd4178717fa39513c2a07\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\leena\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.1.1.aar\583cb91f81c9508550343d589b9096b6\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\leena\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.1.aar\a1fffb74d7b42ec569dfe598834efa18\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:27.1.1] C:\Users\leena\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.1.1.aar\c7b1603cb46e65064c3728c8b36bd2bc\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:27.1.1] C:\Users\leena\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.1.aar\3441d3c6548c938c5babefa5a8eb5f3f\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:exifinterface:27.1.1] C:\Users\leena\.gradle\caches\transforms-1\files-1.1\exifinterface-27.1.1.aar\017933d7e36376aeb47c8a3e9b6fc6f5\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\leena\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\606a8f9c494d3a627741693b891635f9\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\leena\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\0139fcdc5f9e9cd2038f0de454007555\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.0] C:\Users\leena\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\e09409d5fea9e12d57425bdcc1a72411\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\leena\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\faa474061cddf54cc959ec470a1e44c6\AndroidManifest.xml:17:1-22:12
+INJECTED from C:\Users\leena\Desktop\mapapp10\Lee_s App\app\src\main\AndroidManifest.xml:2:1-90:12
+INJECTED from C:\Users\leena\Desktop\mapapp10\Lee_s App\app\src\main\AndroidManifest.xml:2:1-90:12
+INJECTED from C:\Users\leena\Desktop\mapapp10\Lee_s App\app\src\main\AndroidManifest.xml:2:1-90:12
+	package
+		ADDED from C:\Users\leena\Desktop\mapapp10\Lee_s App\app\src\main\AndroidManifest.xml:3:5-40
+		INJECTED from C:\Users\leena\Desktop\mapapp10\Lee_s App\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\leena\Desktop\mapapp10\Lee_s App\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\leena\Desktop\mapapp10\Lee_s App\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\leena\Desktop\mapapp10\Lee_s App\app\src\main\AndroidManifest.xml:2:1-90:12
+		INJECTED from C:\Users\leena\Desktop\mapapp10\Lee_s App\app\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from C:\Users\leena\Desktop\mapapp10\Lee_s App\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\leena\Desktop\mapapp10\Lee_s App\app\src\main\AndroidManifest.xml:2:1-90:12
+		INJECTED from C:\Users\leena\Desktop\mapapp10\Lee_s App\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\leena\Desktop\mapapp10\Lee_s App\app\src\main\AndroidManifest.xml:2:11-69
+uses-permission#android.permission.INTERNET
+ADDED from C:\Users\leena\Desktop\mapapp10\Lee_s App\app\src\main\AndroidManifest.xml:5:5-67
+MERGED from [com.firebaseui:firebase-ui-database:2.1.1] C:\Users\leena\.gradle\caches\transforms-1\files-1.1\firebase-ui-database-2.1.1.aar\41a336dc32350af1a43f51c3b694bd07\AndroidManifest.xml:11:5-67
+MERGED from [com.firebaseui:firebase-ui-database:2.1.1] C:\Users\leena\.gradle\caches\transforms-1\files-1.1\firebase-ui-database-2.1.1.aar\41a336dc32350af1a43f51c3b694bd07\AndroidManifest.xml:11:5-67
+MERGED from [com.google.android.gms:play-services-maps:11.0.2] C:\Users\leena\.gradle\caches\transforms-1\files-1.1\play-services-maps-11.0.2.aar\f500428720643a0ac9c5e55f1da13eb2\AndroidManifest.xml:20:5-66
+MERGED from [com.google.android.gms:play-services-maps:11.0.2] C:\Users\leena\.gradle\caches\transforms-1\files-1.1\play-services-maps-11.0.2.aar\f500428720643a0ac9c5e55f1da13eb2\AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-analytics:11.0.2] C:\Users\leena\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.0.2.aar\6a216e5a422e7a4433f6d784604792b5\AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-analytics:11.0.2] C:\Users\leena\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.0.2.aar\6a216e5a422e7a4433f6d784604792b5\AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-analytics-impl:11.0.2] C:\Users\leena\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-11.0.2.aar\05d3b022a3647eae0f1624a522928869\AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-analytics-impl:11.0.2] C:\Users\leena\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-11.0.2.aar\05d3b022a3647eae0f1624a522928869\AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-iid:11.0.2] C:\Users\leena\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.0.2.aar\bd2387c46cd200d2075ccabe2479c2b5\AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-iid:11.0.2] C:\Users\leena\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.0.2.aar\bd2387c46cd200d2075ccabe2479c2b5\AndroidManifest.xml:20:5-66
+	android:name
+		ADDED from C:\Users\leena\Desktop\mapapp10\Lee_s App\app\src\main\AndroidManifest.xml:5:22-64
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from C:\Users\leena\Desktop\mapapp10\Lee_s App\app\src\main\AndroidManifest.xml:6:5-80
+	android:name
+		ADDED from C:\Users\leena\Desktop\mapapp10\Lee_s App\app\src\main\AndroidManifest.xml:6:22-77
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from C:\Users\leena\Desktop\mapapp10\Lee_s App\app\src\main\AndroidManifest.xml:7:5-81
+	android:name
+		ADDED from C:\Users\leena\Desktop\mapapp10\Lee_s App\app\src\main\AndroidManifest.xml:7:22-78
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from C:\Users\leena\Desktop\mapapp10\Lee_s App\app\src\main\AndroidManifest.xml:8:5-81
+	android:name
+		ADDED from C:\Users\leena\Desktop\mapapp10\Lee_s App\app\src\main\AndroidManifest.xml:8:22-78
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from C:\Users\leena\Desktop\mapapp10\Lee_s App\app\src\main\AndroidManifest.xml:9:5-79
+	android:name
+		ADDED from C:\Users\leena\Desktop\mapapp10\Lee_s App\app\src\main\AndroidManifest.xml:9:22-76
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from C:\Users\leena\Desktop\mapapp10\Lee_s App\app\src\main\AndroidManifest.xml:10:5-76
+	android:name
+		ADDED from C:\Users\leena\Desktop\mapapp10\Lee_s App\app\src\main\AndroidManifest.xml:10:22-73
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from C:\Users\leena\Desktop\mapapp10\Lee_s App\app\src\main\AndroidManifest.xml:11:5-79
+MERGED from [com.google.android.gms:play-services-maps:11.0.2] C:\Users\leena\.gradle\caches\transforms-1\files-1.1\play-services-maps-11.0.2.aar\f500428720643a0ac9c5e55f1da13eb2\AndroidManifest.xml:19:5-78
+MERGED from [com.google.android.gms:play-services-maps:11.0.2] C:\Users\leena\.gradle\caches\transforms-1\files-1.1\play-services-maps-11.0.2.aar\f500428720643a0ac9c5e55f1da13eb2\AndroidManifest.xml:19:5-78
+MERGED from [com.google.firebase:firebase-analytics:11.0.2] C:\Users\leena\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.0.2.aar\6a216e5a422e7a4433f6d784604792b5\AndroidManifest.xml:21:5-78
+MERGED from [com.google.firebase:firebase-analytics:11.0.2] C:\Users\leena\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.0.2.aar\6a216e5a422e7a4433f6d784604792b5\AndroidManifest.xml:21:5-78
+MERGED from [com.google.firebase:firebase-analytics-impl:11.0.2] C:\Users\leena\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-11.0.2.aar\05d3b022a3647eae0f1624a522928869\AndroidManifest.xml:21:5-78
+MERGED from [com.google.firebase:firebase-analytics-impl:11.0.2] C:\Users\leena\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-11.0.2.aar\05d3b022a3647eae0f1624a522928869\AndroidManifest.xml:21:5-78
+MERGED from [com.google.firebase:firebase-iid:11.0.2] C:\Users\leena\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.0.2.aar\bd2387c46cd200d2075ccabe2479c2b5\AndroidManifest.xml:19:5-78
+MERGED from [com.google.firebase:firebase-iid:11.0.2] C:\Users\leena\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.0.2.aar\bd2387c46cd200d2075ccabe2479c2b5\AndroidManifest.xml:19:5-78
+	android:name
+		ADDED from C:\Users\leena\Desktop\mapapp10\Lee_s App\app\src\main\AndroidManifest.xml:11:22-76
+uses-feature#android.hardware.location.network
+ADDED from C:\Users\leena\Desktop\mapapp10\Lee_s App\app\src\main\AndroidManifest.xml:14:5-16:36
+	android:required
+		ADDED from C:\Users\leena\Desktop\mapapp10\Lee_s App\app\src\main\AndroidManifest.xml:16:9-33
+	android:name
+		ADDED from C:\Users\leena\Desktop\mapapp10\Lee_s App\app\src\main\AndroidManifest.xml:15:9-57
+uses-feature#android.hardware.location.gps
+ADDED from C:\Users\leena\Desktop\mapapp10\Lee_s App\app\src\main\AndroidManifest.xml:17:5-19:36
+	android:required
+		ADDED from C:\Users\leena\Desktop\mapapp10\Lee_s App\app\src\main\AndroidManifest.xml:19:9-33
+	android:name
+		ADDED from C:\Users\leena\Desktop\mapapp10\Lee_s App\app\src\main\AndroidManifest.xml:18:9-53
+uses-feature#android.hardware.telephony
+ADDED from C:\Users\leena\Desktop\mapapp10\Lee_s App\app\src\main\AndroidManifest.xml:20:5-22:36
+	android:required
+		ADDED from C:\Users\leena\Desktop\mapapp10\Lee_s App\app\src\main\AndroidManifest.xml:22:9-33
+	android:name
+		ADDED from C:\Users\leena\Desktop\mapapp10\Lee_s App\app\src\main\AndroidManifest.xml:21:9-50
+uses-feature#android.hardware.wifi
+ADDED from C:\Users\leena\Desktop\mapapp10\Lee_s App\app\src\main\AndroidManifest.xml:23:5-25:36
+	android:required
+		ADDED from C:\Users\leena\Desktop\mapapp10\Lee_s App\app\src\main\AndroidManifest.xml:25:9-33
+	android:name
+		ADDED from C:\Users\leena\Desktop\mapapp10\Lee_s App\app\src\main\AndroidManifest.xml:24:9-45
+application
+ADDED from C:\Users\leena\Desktop\mapapp10\Lee_s App\app\src\main\AndroidManifest.xml:27:5-88:19
+MERGED from [gun0912.ted:tedpermission:2.2.0] C:\Users\leena\.gradle\caches\transforms-1\files-1.1\tedpermission-2.2.0.aar\ca3241bd8e5a5b440249db83b9eb4436\AndroidManifest.xml:9:5-15:19
+MERGED from [gun0912.ted:tedpermission:2.2.0] C:\Users\leena\.gradle\caches\transforms-1\files-1.1\tedpermission-2.2.0.aar\ca3241bd8e5a5b440249db83b9eb4436\AndroidManifest.xml:9:5-15:19
+MERGED from [com.airbnb.android:lottie:2.0.0] C:\Users\leena\.gradle\caches\transforms-1\files-1.1\lottie-2.0.0.aar\388194aa9523944891fba5e5e4bc6a47\AndroidManifest.xml:10:5-20
+MERGED from [com.airbnb.android:lottie:2.0.0] C:\Users\leena\.gradle\caches\transforms-1\files-1.1\lottie-2.0.0.aar\388194aa9523944891fba5e5e4bc6a47\AndroidManifest.xml:10:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.2] C:\Users\leena\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.2.aar\cb551ee7bea3b52121c4707ca2c18ecb\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.2] C:\Users\leena\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.2.aar\cb551ee7bea3b52121c4707ca2c18ecb\AndroidManifest.xml:9:5-20
+MERGED from [com.google.firebase:firebase-auth:11.0.2] C:\Users\leena\.gradle\caches\transforms-1\files-1.1\firebase-auth-11.0.2.aar\048e5337e6deb4cd1365660502bb2055\AndroidManifest.xml:19:5-20:19
+MERGED from [com.google.firebase:firebase-auth:11.0.2] C:\Users\leena\.gradle\caches\transforms-1\files-1.1\firebase-auth-11.0.2.aar\048e5337e6deb4cd1365660502bb2055\AndroidManifest.xml:19:5-20:19
+MERGED from [com.firebaseui:firebase-ui-database:2.1.1] C:\Users\leena\.gradle\caches\transforms-1\files-1.1\firebase-ui-database-2.1.1.aar\41a336dc32350af1a43f51c3b694bd07\AndroidManifest.xml:13:5-17:19
+MERGED from [com.firebaseui:firebase-ui-database:2.1.1] C:\Users\leena\.gradle\caches\transforms-1\files-1.1\firebase-ui-database-2.1.1.aar\41a336dc32350af1a43f51c3b694bd07\AndroidManifest.xml:13:5-17:19
+MERGED from [com.google.firebase:firebase-core:11.0.2] C:\Users\leena\.gradle\caches\transforms-1\files-1.1\firebase-core-11.0.2.aar\d19f410f9753f68da0264c2042ac9d75\AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-core:11.0.2] C:\Users\leena\.gradle\caches\transforms-1\files-1.1\firebase-core-11.0.2.aar\d19f410f9753f68da0264c2042ac9d75\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-places:11.0.2] C:\Users\leena\.gradle\caches\transforms-1\files-1.1\play-services-places-11.0.2.aar\24fa3b59c20ac20d059579749e61a9c3\AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-places:11.0.2] C:\Users\leena\.gradle\caches\transforms-1\files-1.1\play-services-places-11.0.2.aar\24fa3b59c20ac20d059579749e61a9c3\AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-maps:11.0.2] C:\Users\leena\.gradle\caches\transforms-1\files-1.1\play-services-maps-11.0.2.aar\f500428720643a0ac9c5e55f1da13eb2\AndroidManifest.xml:24:5-19
+MERGED from [com.google.android.gms:play-services-maps:11.0.2] C:\Users\leena\.gradle\caches\transforms-1\files-1.1\play-services-maps-11.0.2.aar\f500428720643a0ac9c5e55f1da13eb2\AndroidManifest.xml:24:5-19
+MERGED from [de.hdodenhof:circleimageview:2.2.0] C:\Users\leena\.gradle\caches\transforms-1\files-1.1\circleimageview-2.2.0.aar\44b6f81a3c9699f10740bb6539903cca\AndroidManifest.xml:9:5-20
+MERGED from [de.hdodenhof:circleimageview:2.2.0] C:\Users\leena\.gradle\caches\transforms-1\files-1.1\circleimageview-2.2.0.aar\44b6f81a3c9699f10740bb6539903cca\AndroidManifest.xml:9:5-20
+MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\leena\.gradle\caches\transforms-1\files-1.1\picasso-2.71828.aar\78cefbf50d242554581c810afee5b5a0\AndroidManifest.xml:7:5-12:19
+MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\leena\.gradle\caches\transforms-1\files-1.1\picasso-2.71828.aar\78cefbf50d242554581c810afee5b5a0\AndroidManifest.xml:7:5-12:19
+MERGED from [com.google.android.gms:play-services-location:11.0.2] C:\Users\leena\.gradle\caches\transforms-1\files-1.1\play-services-location-11.0.2.aar\53c7c4c79c85c869ea20ad1fcc8a4708\AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-location:11.0.2] C:\Users\leena\.gradle\caches\transforms-1\files-1.1\play-services-location-11.0.2.aar\53c7c4c79c85c869ea20ad1fcc8a4708\AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-base:11.0.2] C:\Users\leena\.gradle\caches\transforms-1\files-1.1\play-services-base-11.0.2.aar\f8751b45ebbd2ff542d3887acb64b5f4\AndroidManifest.xml:18:5-20:19
+MERGED from [com.google.android.gms:play-services-base:11.0.2] C:\Users\leena\.gradle\caches\transforms-1\files-1.1\play-services-base-11.0.2.aar\f8751b45ebbd2ff542d3887acb64b5f4\AndroidManifest.xml:18:5-20:19
+MERGED from [com.google.firebase:firebase-analytics:11.0.2] C:\Users\leena\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.0.2.aar\6a216e5a422e7a4433f6d784604792b5\AndroidManifest.xml:24:5-34:19
+MERGED from [com.google.firebase:firebase-analytics:11.0.2] C:\Users\leena\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.0.2.aar\6a216e5a422e7a4433f6d784604792b5\AndroidManifest.xml:24:5-34:19
+MERGED from [com.google.firebase:firebase-analytics-impl:11.0.2] C:\Users\leena\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-11.0.2.aar\05d3b022a3647eae0f1624a522928869\AndroidManifest.xml:24:5-28:19
+MERGED from [com.google.firebase:firebase-analytics-impl:11.0.2] C:\Users\leena\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-11.0.2.aar\05d3b022a3647eae0f1624a522928869\AndroidManifest.xml:24:5-28:19
+MERGED from [com.google.firebase:firebase-iid:11.0.2] C:\Users\leena\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.0.2.aar\bd2387c46cd200d2075ccabe2479c2b5\AndroidManifest.xml:28:5-49:19
+MERGED from [com.google.firebase:firebase-iid:11.0.2] C:\Users\leena\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.0.2.aar\bd2387c46cd200d2075ccabe2479c2b5\AndroidManifest.xml:28:5-49:19
+MERGED from [com.google.firebase:firebase-common:11.0.2] C:\Users\leena\.gradle\caches\transforms-1\files-1.1\firebase-common-11.0.2.aar\e0701ac5d9ef5a0d5ca993c31cde6669\AndroidManifest.xml:4:5-7:19
+MERGED from [com.google.firebase:firebase-common:11.0.2] C:\Users\leena\.gradle\caches\transforms-1\files-1.1\firebase-common-11.0.2.aar\e0701ac5d9ef5a0d5ca993c31cde6669\AndroidManifest.xml:4:5-7:19
+MERGED from [com.google.android.gms:play-services-tasks:11.0.2] C:\Users\leena\.gradle\caches\transforms-1\files-1.1\play-services-tasks-11.0.2.aar\01a70f17f5e6f0589487ffcb56132dfc\AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-tasks:11.0.2] C:\Users\leena\.gradle\caches\transforms-1\files-1.1\play-services-tasks-11.0.2.aar\01a70f17f5e6f0589487ffcb56132dfc\AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-basement:11.0.2] C:\Users\leena\.gradle\caches\transforms-1\files-1.1\play-services-basement-11.0.2.aar\37368a38f65e4da8ab74992aff071cc6\AndroidManifest.xml:19:5-21:19
+MERGED from [com.google.android.gms:play-services-basement:11.0.2] C:\Users\leena\.gradle\caches\transforms-1\files-1.1\play-services-basement-11.0.2.aar\37368a38f65e4da8ab74992aff071cc6\AndroidManifest.xml:19:5-21:19
+	android:supportsRtl
+		ADDED from C:\Users\leena\Desktop\mapapp10\Lee_s App\app\src\main\AndroidManifest.xml:33:9-35
+	android:label
+		ADDED from C:\Users\leena\Desktop\mapapp10\Lee_s App\app\src\main\AndroidManifest.xml:31:9-41
+	android:roundIcon
+		ADDED from C:\Users\leena\Desktop\mapapp10\Lee_s App\app\src\main\AndroidManifest.xml:32:9-55
+	android:icon
+		ADDED from C:\Users\leena\Desktop\mapapp10\Lee_s App\app\src\main\AndroidManifest.xml:30:9-50
+	android:allowBackup
+		ADDED from C:\Users\leena\Desktop\mapapp10\Lee_s App\app\src\main\AndroidManifest.xml:29:9-35
+	android:theme
+		ADDED from C:\Users\leena\Desktop\mapapp10\Lee_s App\app\src\main\AndroidManifest.xml:34:9-40
+	android:name
+		ADDED from C:\Users\leena\Desktop\mapapp10\Lee_s App\app\src\main\AndroidManifest.xml:28:9-32
+activity#com.example.leena.mypills.MainActivity
+ADDED from C:\Users\leena\Desktop\mapapp10\Lee_s App\app\src\main\AndroidManifest.xml:35:9-50
+	android:name
+		ADDED from C:\Users\leena\Desktop\mapapp10\Lee_s App\app\src\main\AndroidManifest.xml:35:19-47
+activity#com.example.leena.mypills.RegisterActivity
+ADDED from C:\Users\leena\Desktop\mapapp10\Lee_s App\app\src\main\AndroidManifest.xml:36:9-54
+	android:name
+		ADDED from C:\Users\leena\Desktop\mapapp10\Lee_s App\app\src\main\AndroidManifest.xml:36:19-51
+activity#com.example.leena.mypills.LoginActivity
+ADDED from C:\Users\leena\Desktop\mapapp10\Lee_s App\app\src\main\AndroidManifest.xml:37:9-45:20
+	android:name
+		ADDED from C:\Users\leena\Desktop\mapapp10\Lee_s App\app\src\main\AndroidManifest.xml:37:19-48
+activity#com.example.leena.mypills.Post_register
+ADDED from C:\Users\leena\Desktop\mapapp10\Lee_s App\app\src\main\AndroidManifest.xml:46:9-51
+	android:name
+		ADDED from C:\Users\leena\Desktop\mapapp10\Lee_s App\app\src\main\AndroidManifest.xml:46:19-48
+activity#com.example.leena.mypills.Add_loc
+ADDED from C:\Users\leena\Desktop\mapapp10\Lee_s App\app\src\main\AndroidManifest.xml:47:9-45
+	android:name
+		ADDED from C:\Users\leena\Desktop\mapapp10\Lee_s App\app\src\main\AndroidManifest.xml:47:19-42
+activity#com.example.leena.mypills.Map_data
+ADDED from C:\Users\leena\Desktop\mapapp10\Lee_s App\app\src\main\AndroidManifest.xml:48:9-46
+	android:name
+		ADDED from C:\Users\leena\Desktop\mapapp10\Lee_s App\app\src\main\AndroidManifest.xml:48:19-43
+activity#com.example.leena.mypills.SetupActivity
+ADDED from C:\Users\leena\Desktop\mapapp10\Lee_s App\app\src\main\AndroidManifest.xml:49:9-51
+	android:name
+		ADDED from C:\Users\leena\Desktop\mapapp10\Lee_s App\app\src\main\AndroidManifest.xml:49:19-48
+activity#com.theartofdev.edmodo.cropper.CropImageActivity
+ADDED from C:\Users\leena\Desktop\mapapp10\Lee_s App\app\src\main\AndroidManifest.xml:50:9-52:59
+	android:theme
+		ADDED from C:\Users\leena\Desktop\mapapp10\Lee_s App\app\src\main\AndroidManifest.xml:52:13-56
+	android:name
+		ADDED from C:\Users\leena\Desktop\mapapp10\Lee_s App\app\src\main\AndroidManifest.xml:51:13-76
+activity#com.example.leena.mypills.PostActivity
+ADDED from C:\Users\leena\Desktop\mapapp10\Lee_s App\app\src\main\AndroidManifest.xml:53:9-50
+	android:name
+		ADDED from C:\Users\leena\Desktop\mapapp10\Lee_s App\app\src\main\AndroidManifest.xml:53:19-47
+activity#com.example.leena.mypills.FindActivity
+ADDED from C:\Users\leena\Desktop\mapapp10\Lee_s App\app\src\main\AndroidManifest.xml:54:9-56:55
+	android:windowSoftInputMode
+		ADDED from C:\Users\leena\Desktop\mapapp10\Lee_s App\app\src\main\AndroidManifest.xml:56:13-52
+	android:name
+		ADDED from C:\Users\leena\Desktop\mapapp10\Lee_s App\app\src\main\AndroidManifest.xml:55:13-41
+activity#com.example.leena.mypills.clickPostActivity
+ADDED from C:\Users\leena\Desktop\mapapp10\Lee_s App\app\src\main\AndroidManifest.xml:57:9-55
+	android:name
+		ADDED from C:\Users\leena\Desktop\mapapp10\Lee_s App\app\src\main\AndroidManifest.xml:57:19-52
+activity#com.example.leena.mypills.SplashActivity
+ADDED from C:\Users\leena\Desktop\mapapp10\Lee_s App\app\src\main\AndroidManifest.xml:58:9-60:50
+	android:theme
+		ADDED from C:\Users\leena\Desktop\mapapp10\Lee_s App\app\src\main\AndroidManifest.xml:60:13-47
+	android:name
+		ADDED from C:\Users\leena\Desktop\mapapp10\Lee_s App\app\src\main\AndroidManifest.xml:59:13-43
+meta-data#preloaded_fonts
+ADDED from C:\Users\leena\Desktop\mapapp10\Lee_s App\app\src\main\AndroidManifest.xml:62:9-64:57
+	android:resource
+		ADDED from C:\Users\leena\Desktop\mapapp10\Lee_s App\app\src\main\AndroidManifest.xml:64:13-54
+	android:name
+		ADDED from C:\Users\leena\Desktop\mapapp10\Lee_s App\app\src\main\AndroidManifest.xml:63:13-43
+meta-data#com.google.android.geo.API_KEY
+ADDED from C:\Users\leena\Desktop\mapapp10\Lee_s App\app\src\main\AndroidManifest.xml:73:9-75:71
+	android:value
+		ADDED from C:\Users\leena\Desktop\mapapp10\Lee_s App\app\src\main\AndroidManifest.xml:75:13-68
+	android:name
+		ADDED from C:\Users\leena\Desktop\mapapp10\Lee_s App\app\src\main\AndroidManifest.xml:74:13-58
+activity#com.example.leena.mypills.StartAnimation
+ADDED from C:\Users\leena\Desktop\mapapp10\Lee_s App\app\src\main\AndroidManifest.xml:77:9-83:20
+	android:name
+		ADDED from C:\Users\leena\Desktop\mapapp10\Lee_s App\app\src\main\AndroidManifest.xml:77:19-49
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from C:\Users\leena\Desktop\mapapp10\Lee_s App\app\src\main\AndroidManifest.xml:78:13-82:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\leena\Desktop\mapapp10\Lee_s App\app\src\main\AndroidManifest.xml:79:17-69
+	android:name
+		ADDED from C:\Users\leena\Desktop\mapapp10\Lee_s App\app\src\main\AndroidManifest.xml:79:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\leena\Desktop\mapapp10\Lee_s App\app\src\main\AndroidManifest.xml:81:17-77
+	android:name
+		ADDED from C:\Users\leena\Desktop\mapapp10\Lee_s App\app\src\main\AndroidManifest.xml:81:27-74
+activity#com.example.leena.mypills.check
+ADDED from C:\Users\leena\Desktop\mapapp10\Lee_s App\app\src\main\AndroidManifest.xml:84:9-43
+	android:name
+		ADDED from C:\Users\leena\Desktop\mapapp10\Lee_s App\app\src\main\AndroidManifest.xml:84:19-40
+activity#com.example.leena.mypills.hello
+ADDED from C:\Users\leena\Desktop\mapapp10\Lee_s App\app\src\main\AndroidManifest.xml:85:9-43
+	android:name
+		ADDED from C:\Users\leena\Desktop\mapapp10\Lee_s App\app\src\main\AndroidManifest.xml:85:19-40
+activity#com.example.leena.mypills.search
+ADDED from C:\Users\leena\Desktop\mapapp10\Lee_s App\app\src\main\AndroidManifest.xml:86:9-44
+	android:name
+		ADDED from C:\Users\leena\Desktop\mapapp10\Lee_s App\app\src\main\AndroidManifest.xml:86:19-41
+activity#com.example.leena.mypills.Navigation_View
+ADDED from C:\Users\leena\Desktop\mapapp10\Lee_s App\app\src\main\AndroidManifest.xml:87:9-62
+	android:name
+		ADDED from C:\Users\leena\Desktop\mapapp10\Lee_s App\app\src\main\AndroidManifest.xml:87:19-50
+uses-sdk
+INJECTED from C:\Users\leena\Desktop\mapapp10\Lee_s App\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\leena\Desktop\mapapp10\Lee_s App\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\leena\Desktop\mapapp10\Lee_s App\app\src\main\AndroidManifest.xml
+MERGED from [com.theartofdev.edmodo:android-image-cropper:2.7.0] C:\Users\leena\.gradle\caches\transforms-1\files-1.1\android-image-cropper-2.7.0.aar\5a66f7367f4b44029854ef9eff17e672\AndroidManifest.xml:7:5-9:41
+MERGED from [com.theartofdev.edmodo:android-image-cropper:2.7.0] C:\Users\leena\.gradle\caches\transforms-1\files-1.1\android-image-cropper-2.7.0.aar\5a66f7367f4b44029854ef9eff17e672\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:design:27.1.1] C:\Users\leena\.gradle\caches\transforms-1\files-1.1\design-27.1.1.aar\054d995e13f1052bbc1c0c610317877b\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design:27.1.1] C:\Users\leena\.gradle\caches\transforms-1\files-1.1\design-27.1.1.aar\054d995e13f1052bbc1c0c610317877b\AndroidManifest.xml:20:5-44
+MERGED from [gun0912.ted:tedpermission:2.2.0] C:\Users\leena\.gradle\caches\transforms-1\files-1.1\tedpermission-2.2.0.aar\ca3241bd8e5a5b440249db83b9eb4436\AndroidManifest.xml:5:5-7:41
+MERGED from [gun0912.ted:tedpermission:2.2.0] C:\Users\leena\.gradle\caches\transforms-1\files-1.1\tedpermission-2.2.0.aar\ca3241bd8e5a5b440249db83b9eb4436\AndroidManifest.xml:5:5-7:41
+MERGED from [com.airbnb.android:lottie:2.0.0] C:\Users\leena\.gradle\caches\transforms-1\files-1.1\lottie-2.0.0.aar\388194aa9523944891fba5e5e4bc6a47\AndroidManifest.xml:6:5-8:41
+MERGED from [com.airbnb.android:lottie:2.0.0] C:\Users\leena\.gradle\caches\transforms-1\files-1.1\lottie-2.0.0.aar\388194aa9523944891fba5e5e4bc6a47\AndroidManifest.xml:6:5-8:41
+MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\leena\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.1.aar\9443799f02d55640c7e9421ac0e3dcdf\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\leena\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.1.aar\9443799f02d55640c7e9421ac0e3dcdf\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support.constraint:constraint-layout:1.1.2] C:\Users\leena\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.2.aar\cb551ee7bea3b52121c4707ca2c18ecb\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.2] C:\Users\leena\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.2.aar\cb551ee7bea3b52121c4707ca2c18ecb\AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:firebase-auth:11.0.2] C:\Users\leena\.gradle\caches\transforms-1\files-1.1\firebase-auth-11.0.2.aar\048e5337e6deb4cd1365660502bb2055\AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-auth:11.0.2] C:\Users\leena\.gradle\caches\transforms-1\files-1.1\firebase-auth-11.0.2.aar\048e5337e6deb4cd1365660502bb2055\AndroidManifest.xml:17:5-43
+MERGED from [com.firebaseui:firebase-ui-database:2.1.1] C:\Users\leena\.gradle\caches\transforms-1\files-1.1\firebase-ui-database-2.1.1.aar\41a336dc32350af1a43f51c3b694bd07\AndroidManifest.xml:7:5-9:41
+MERGED from [com.firebaseui:firebase-ui-database:2.1.1] C:\Users\leena\.gradle\caches\transforms-1\files-1.1\firebase-ui-database-2.1.1.aar\41a336dc32350af1a43f51c3b694bd07\AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.firebase:firebase-database:11.0.2] C:\Users\leena\.gradle\caches\transforms-1\files-1.1\firebase-database-11.0.2.aar\b21583f0393c4f83ef5a40913d755672\AndroidManifest.xml:3:5-43
+MERGED from [com.google.firebase:firebase-database:11.0.2] C:\Users\leena\.gradle\caches\transforms-1\files-1.1\firebase-database-11.0.2.aar\b21583f0393c4f83ef5a40913d755672\AndroidManifest.xml:3:5-43
+MERGED from [com.google.firebase:firebase-storage:11.0.2] C:\Users\leena\.gradle\caches\transforms-1\files-1.1\firebase-storage-11.0.2.aar\27d03256d4a7efbaf60d68a94dfa4568\AndroidManifest.xml:3:5-43
+MERGED from [com.google.firebase:firebase-storage:11.0.2] C:\Users\leena\.gradle\caches\transforms-1\files-1.1\firebase-storage-11.0.2.aar\27d03256d4a7efbaf60d68a94dfa4568\AndroidManifest.xml:3:5-43
+MERGED from [com.google.firebase:firebase-core:11.0.2] C:\Users\leena\.gradle\caches\transforms-1\files-1.1\firebase-core-11.0.2.aar\d19f410f9753f68da0264c2042ac9d75\AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-core:11.0.2] C:\Users\leena\.gradle\caches\transforms-1\files-1.1\firebase-core-11.0.2.aar\d19f410f9753f68da0264c2042ac9d75\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-places:11.0.2] C:\Users\leena\.gradle\caches\transforms-1\files-1.1\play-services-places-11.0.2.aar\24fa3b59c20ac20d059579749e61a9c3\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-places:11.0.2] C:\Users\leena\.gradle\caches\transforms-1\files-1.1\play-services-places-11.0.2.aar\24fa3b59c20ac20d059579749e61a9c3\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-maps:11.0.2] C:\Users\leena\.gradle\caches\transforms-1\files-1.1\play-services-maps-11.0.2.aar\f500428720643a0ac9c5e55f1da13eb2\AndroidManifest.xml:23:5-43
+MERGED from [com.google.android.gms:play-services-maps:11.0.2] C:\Users\leena\.gradle\caches\transforms-1\files-1.1\play-services-maps-11.0.2.aar\f500428720643a0ac9c5e55f1da13eb2\AndroidManifest.xml:23:5-43
+MERGED from [de.hdodenhof:circleimageview:2.2.0] C:\Users\leena\.gradle\caches\transforms-1\files-1.1\circleimageview-2.2.0.aar\44b6f81a3c9699f10740bb6539903cca\AndroidManifest.xml:5:5-7:41
+MERGED from [de.hdodenhof:circleimageview:2.2.0] C:\Users\leena\.gradle\caches\transforms-1\files-1.1\circleimageview-2.2.0.aar\44b6f81a3c9699f10740bb6539903cca\AndroidManifest.xml:5:5-7:41
+MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\leena\.gradle\caches\transforms-1\files-1.1\picasso-2.71828.aar\78cefbf50d242554581c810afee5b5a0\AndroidManifest.xml:5:5-44
+MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\leena\.gradle\caches\transforms-1\files-1.1\picasso-2.71828.aar\78cefbf50d242554581c810afee5b5a0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-location:11.0.2] C:\Users\leena\.gradle\caches\transforms-1\files-1.1\play-services-location-11.0.2.aar\53c7c4c79c85c869ea20ad1fcc8a4708\AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-location:11.0.2] C:\Users\leena\.gradle\caches\transforms-1\files-1.1\play-services-location-11.0.2.aar\53c7c4c79c85c869ea20ad1fcc8a4708\AndroidManifest.xml:3:5-43
+MERGED from [com.android.support:multidex:1.0.3] C:\Users\leena\.gradle\caches\transforms-1\files-1.1\multidex-1.0.3.aar\02dc4ed7e16a50b05c908677acf73207\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:multidex:1.0.3] C:\Users\leena\.gradle\caches\transforms-1\files-1.1\multidex-1.0.3.aar\02dc4ed7e16a50b05c908677acf73207\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:transition:27.1.1] C:\Users\leena\.gradle\caches\transforms-1\files-1.1\transition-27.1.1.aar\e8652c20e133a5423f2ef9ca9d28fbd9\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:27.1.1] C:\Users\leena\.gradle\caches\transforms-1\files-1.1\transition-27.1.1.aar\e8652c20e133a5423f2ef9ca9d28fbd9\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:11.0.2] C:\Users\leena\.gradle\caches\transforms-1\files-1.1\play-services-base-11.0.2.aar\f8751b45ebbd2ff542d3887acb64b5f4\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-base:11.0.2] C:\Users\leena\.gradle\caches\transforms-1\files-1.1\play-services-base-11.0.2.aar\f8751b45ebbd2ff542d3887acb64b5f4\AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-database-connection:11.0.2] C:\Users\leena\.gradle\caches\transforms-1\files-1.1\firebase-database-connection-11.0.2.aar\cc142fec161b36fde80632ff3f4389e8\AndroidManifest.xml:3:5-43
+MERGED from [com.google.firebase:firebase-database-connection:11.0.2] C:\Users\leena\.gradle\caches\transforms-1\files-1.1\firebase-database-connection-11.0.2.aar\cc142fec161b36fde80632ff3f4389e8\AndroidManifest.xml:3:5-43
+MERGED from [com.google.firebase:firebase-analytics:11.0.2] C:\Users\leena\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.0.2.aar\6a216e5a422e7a4433f6d784604792b5\AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-analytics:11.0.2] C:\Users\leena\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.0.2.aar\6a216e5a422e7a4433f6d784604792b5\AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-analytics-impl:11.0.2] C:\Users\leena\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-11.0.2.aar\05d3b022a3647eae0f1624a522928869\AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-analytics-impl:11.0.2] C:\Users\leena\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-11.0.2.aar\05d3b022a3647eae0f1624a522928869\AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-iid:11.0.2] C:\Users\leena\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.0.2.aar\bd2387c46cd200d2075ccabe2479c2b5\AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-iid:11.0.2] C:\Users\leena\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.0.2.aar\bd2387c46cd200d2075ccabe2479c2b5\AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-common:11.0.2] C:\Users\leena\.gradle\caches\transforms-1\files-1.1\firebase-common-11.0.2.aar\e0701ac5d9ef5a0d5ca993c31cde6669\AndroidManifest.xml:3:5-43
+MERGED from [com.google.firebase:firebase-common:11.0.2] C:\Users\leena\.gradle\caches\transforms-1\files-1.1\firebase-common-11.0.2.aar\e0701ac5d9ef5a0d5ca993c31cde6669\AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-tasks:11.0.2] C:\Users\leena\.gradle\caches\transforms-1\files-1.1\play-services-tasks-11.0.2.aar\01a70f17f5e6f0589487ffcb56132dfc\AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-tasks:11.0.2] C:\Users\leena\.gradle\caches\transforms-1\files-1.1\play-services-tasks-11.0.2.aar\01a70f17f5e6f0589487ffcb56132dfc\AndroidManifest.xml:3:5-43
+MERGED from [com.google.firebase:firebase-storage-common:11.0.2] C:\Users\leena\.gradle\caches\transforms-1\files-1.1\firebase-storage-common-11.0.2.aar\0afeb8a6554edd65665be790ac889019\AndroidManifest.xml:3:5-43
+MERGED from [com.google.firebase:firebase-storage-common:11.0.2] C:\Users\leena\.gradle\caches\transforms-1\files-1.1\firebase-storage-common-11.0.2.aar\0afeb8a6554edd65665be790ac889019\AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-basement:11.0.2] C:\Users\leena\.gradle\caches\transforms-1\files-1.1\play-services-basement-11.0.2.aar\37368a38f65e4da8ab74992aff071cc6\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-basement:11.0.2] C:\Users\leena\.gradle\caches\transforms-1\files-1.1\play-services-basement-11.0.2.aar\37368a38f65e4da8ab74992aff071cc6\AndroidManifest.xml:17:5-43
+MERGED from [com.android.support:support-v4:27.1.1] C:\Users\leena\.gradle\caches\transforms-1\files-1.1\support-v4-27.1.1.aar\25bcc553673e45bc9ac7eeccb33eb518\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.1.1] C:\Users\leena\.gradle\caches\transforms-1\files-1.1\support-v4-27.1.1.aar\25bcc553673e45bc9ac7eeccb33eb518\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.1.1] C:\Users\leena\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.1.1.aar\bb15694e9ce8ca40fe11d02918eb6eac\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.1.1] C:\Users\leena\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.1.1.aar\bb15694e9ce8ca40fe11d02918eb6eac\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\leena\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.1.aar\d79ac07a84eeb0d938acb70472a54d10\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\leena\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.1.aar\d79ac07a84eeb0d938acb70472a54d10\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:27.1.1] C:\Users\leena\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-27.1.1.aar\d9d562b8981c62a817cba2f8aa1be3ec\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:27.1.1] C:\Users\leena\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-27.1.1.aar\d9d562b8981c62a817cba2f8aa1be3ec\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] C:\Users\leena\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.1.1.aar\1c63f556e9ffd4178717fa39513c2a07\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] C:\Users\leena\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.1.1.aar\1c63f556e9ffd4178717fa39513c2a07\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\leena\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.1.1.aar\583cb91f81c9508550343d589b9096b6\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\leena\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.1.1.aar\583cb91f81c9508550343d589b9096b6\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\leena\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.1.aar\a1fffb74d7b42ec569dfe598834efa18\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\leena\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.1.aar\a1fffb74d7b42ec569dfe598834efa18\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.1] C:\Users\leena\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.1.1.aar\c7b1603cb46e65064c3728c8b36bd2bc\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.1] C:\Users\leena\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.1.1.aar\c7b1603cb46e65064c3728c8b36bd2bc\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] C:\Users\leena\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.1.aar\3441d3c6548c938c5babefa5a8eb5f3f\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] C:\Users\leena\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.1.aar\3441d3c6548c938c5babefa5a8eb5f3f\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:exifinterface:27.1.1] C:\Users\leena\.gradle\caches\transforms-1\files-1.1\exifinterface-27.1.1.aar\017933d7e36376aeb47c8a3e9b6fc6f5\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:exifinterface:27.1.1] C:\Users\leena\.gradle\caches\transforms-1\files-1.1\exifinterface-27.1.1.aar\017933d7e36376aeb47c8a3e9b6fc6f5\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\leena\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\606a8f9c494d3a627741693b891635f9\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\leena\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\606a8f9c494d3a627741693b891635f9\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\leena\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\0139fcdc5f9e9cd2038f0de454007555\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\leena\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\0139fcdc5f9e9cd2038f0de454007555\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] C:\Users\leena\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\e09409d5fea9e12d57425bdcc1a72411\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] C:\Users\leena\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\e09409d5fea9e12d57425bdcc1a72411\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\leena\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\faa474061cddf54cc959ec470a1e44c6\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\leena\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\faa474061cddf54cc959ec470a1e44c6\AndroidManifest.xml:20:5-44
+INJECTED from C:\Users\leena\Desktop\mapapp10\Lee_s App\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\leena\Desktop\mapapp10\Lee_s App\app\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from C:\Users\leena\Desktop\mapapp10\Lee_s App\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\leena\Desktop\mapapp10\Lee_s App\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\leena\Desktop\mapapp10\Lee_s App\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\leena\Desktop\mapapp10\Lee_s App\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\leena\Desktop\mapapp10\Lee_s App\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\leena\Desktop\mapapp10\Lee_s App\app\src\main\AndroidManifest.xml
+activity#com.gun0912.tedpermission.TedPermissionActivity
+ADDED from [gun0912.ted:tedpermission:2.2.0] C:\Users\leena\.gradle\caches\transforms-1\files-1.1\tedpermission-2.2.0.aar\ca3241bd8e5a5b440249db83b9eb4436\AndroidManifest.xml:10:9-14:67
+	android:screenOrientation
+		ADDED from [gun0912.ted:tedpermission:2.2.0] C:\Users\leena\.gradle\caches\transforms-1\files-1.1\tedpermission-2.2.0.aar\ca3241bd8e5a5b440249db83b9eb4436\AndroidManifest.xml:13:13-52
+	android:configChanges
+		ADDED from [gun0912.ted:tedpermission:2.2.0] C:\Users\leena\.gradle\caches\transforms-1\files-1.1\tedpermission-2.2.0.aar\ca3241bd8e5a5b440249db83b9eb4436\AndroidManifest.xml:12:13-144
+	android:theme
+		ADDED from [gun0912.ted:tedpermission:2.2.0] C:\Users\leena\.gradle\caches\transforms-1\files-1.1\tedpermission-2.2.0.aar\ca3241bd8e5a5b440249db83b9eb4436\AndroidManifest.xml:14:13-64
+	android:name
+		ADDED from [gun0912.ted:tedpermission:2.2.0] C:\Users\leena\.gradle\caches\transforms-1\files-1.1\tedpermission-2.2.0.aar\ca3241bd8e5a5b440249db83b9eb4436\AndroidManifest.xml:11:13-75
+meta-data#com.google.android.gms.version
+ADDED from [com.firebaseui:firebase-ui-database:2.1.1] C:\Users\leena\.gradle\caches\transforms-1\files-1.1\firebase-ui-database-2.1.1.aar\41a336dc32350af1a43f51c3b694bd07\AndroidManifest.xml:14:9-16:69
+MERGED from [com.google.android.gms:play-services-basement:11.0.2] C:\Users\leena\.gradle\caches\transforms-1\files-1.1\play-services-basement-11.0.2.aar\37368a38f65e4da8ab74992aff071cc6\AndroidManifest.xml:20:9-121
+MERGED from [com.google.android.gms:play-services-basement:11.0.2] C:\Users\leena\.gradle\caches\transforms-1\files-1.1\play-services-basement-11.0.2.aar\37368a38f65e4da8ab74992aff071cc6\AndroidManifest.xml:20:9-121
+	android:value
+		ADDED from [com.firebaseui:firebase-ui-database:2.1.1] C:\Users\leena\.gradle\caches\transforms-1\files-1.1\firebase-ui-database-2.1.1.aar\41a336dc32350af1a43f51c3b694bd07\AndroidManifest.xml:16:13-66
+	android:name
+		ADDED from [com.firebaseui:firebase-ui-database:2.1.1] C:\Users\leena\.gradle\caches\transforms-1\files-1.1\firebase-ui-database-2.1.1.aar\41a336dc32350af1a43f51c3b694bd07\AndroidManifest.xml:15:13-58
+uses-feature#0x00020000
+ADDED from [com.google.android.gms:play-services-maps:11.0.2] C:\Users\leena\.gradle\caches\transforms-1\files-1.1\play-services-maps-11.0.2.aar\f500428720643a0ac9c5e55f1da13eb2\AndroidManifest.xml:21:5-77
+	android:glEsVersion
+		ADDED from [com.google.android.gms:play-services-maps:11.0.2] C:\Users\leena\.gradle\caches\transforms-1\files-1.1\play-services-maps-11.0.2.aar\f500428720643a0ac9c5e55f1da13eb2\AndroidManifest.xml:21:19-51
+	android:required
+		ADDED from [com.google.android.gms:play-services-maps:11.0.2] C:\Users\leena\.gradle\caches\transforms-1\files-1.1\play-services-maps-11.0.2.aar\f500428720643a0ac9c5e55f1da13eb2\AndroidManifest.xml:21:52-75
+provider#com.squareup.picasso.PicassoProvider
+ADDED from [com.squareup.picasso:picasso:2.71828] C:\Users\leena\.gradle\caches\transforms-1\files-1.1\picasso-2.71828.aar\78cefbf50d242554581c810afee5b5a0\AndroidManifest.xml:8:9-11:40
+	android:authorities
+		ADDED from [com.squareup.picasso:picasso:2.71828] C:\Users\leena\.gradle\caches\transforms-1\files-1.1\picasso-2.71828.aar\78cefbf50d242554581c810afee5b5a0\AndroidManifest.xml:10:13-72
+	android:exported
+		ADDED from [com.squareup.picasso:picasso:2.71828] C:\Users\leena\.gradle\caches\transforms-1\files-1.1\picasso-2.71828.aar\78cefbf50d242554581c810afee5b5a0\AndroidManifest.xml:11:13-37
+	android:name
+		ADDED from [com.squareup.picasso:picasso:2.71828] C:\Users\leena\.gradle\caches\transforms-1\files-1.1\picasso-2.71828.aar\78cefbf50d242554581c810afee5b5a0\AndroidManifest.xml:9:13-64
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:11.0.2] C:\Users\leena\.gradle\caches\transforms-1\files-1.1\play-services-base-11.0.2.aar\f8751b45ebbd2ff542d3887acb64b5f4\AndroidManifest.xml:19:9-172
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:11.0.2] C:\Users\leena\.gradle\caches\transforms-1\files-1.1\play-services-base-11.0.2.aar\f8751b45ebbd2ff542d3887acb64b5f4\AndroidManifest.xml:19:146-170
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:11.0.2] C:\Users\leena\.gradle\caches\transforms-1\files-1.1\play-services-base-11.0.2.aar\f8751b45ebbd2ff542d3887acb64b5f4\AndroidManifest.xml:19:86-145
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:11.0.2] C:\Users\leena\.gradle\caches\transforms-1\files-1.1\play-services-base-11.0.2.aar\f8751b45ebbd2ff542d3887acb64b5f4\AndroidManifest.xml:19:19-85
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [com.google.firebase:firebase-analytics:11.0.2] C:\Users\leena\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.0.2.aar\6a216e5a422e7a4433f6d784604792b5\AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-analytics-impl:11.0.2] C:\Users\leena\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-11.0.2.aar\05d3b022a3647eae0f1624a522928869\AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-analytics-impl:11.0.2] C:\Users\leena\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-11.0.2.aar\05d3b022a3647eae0f1624a522928869\AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-iid:11.0.2] C:\Users\leena\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.0.2.aar\bd2387c46cd200d2075ccabe2479c2b5\AndroidManifest.xml:21:5-67
+MERGED from [com.google.firebase:firebase-iid:11.0.2] C:\Users\leena\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.0.2.aar\bd2387c46cd200d2075ccabe2479c2b5\AndroidManifest.xml:21:5-67
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:11.0.2] C:\Users\leena\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.0.2.aar\6a216e5a422e7a4433f6d784604792b5\AndroidManifest.xml:22:22-65
+receiver#com.google.android.gms.measurement.AppMeasurementReceiver
+ADDED from [com.google.firebase:firebase-analytics:11.0.2] C:\Users\leena\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.0.2.aar\6a216e5a422e7a4433f6d784604792b5\AndroidManifest.xml:25:7-26:18
+MERGED from [com.google.firebase:firebase-analytics-impl:11.0.2] C:\Users\leena\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-11.0.2.aar\05d3b022a3647eae0f1624a522928869\AndroidManifest.xml:25:7-26:18
+MERGED from [com.google.firebase:firebase-analytics-impl:11.0.2] C:\Users\leena\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-11.0.2.aar\05d3b022a3647eae0f1624a522928869\AndroidManifest.xml:25:7-26:18
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:11.0.2] C:\Users\leena\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.0.2.aar\6a216e5a422e7a4433f6d784604792b5\AndroidManifest.xml:25:90-112
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:11.0.2] C:\Users\leena\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.0.2.aar\6a216e5a422e7a4433f6d784604792b5\AndroidManifest.xml:25:113-137
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:11.0.2] C:\Users\leena\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.0.2.aar\6a216e5a422e7a4433f6d784604792b5\AndroidManifest.xml:25:17-89
+receiver#com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver
+ADDED from [com.google.firebase:firebase-analytics:11.0.2] C:\Users\leena\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.0.2.aar\6a216e5a422e7a4433f6d784604792b5\AndroidManifest.xml:27:7-31:18
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:11.0.2] C:\Users\leena\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.0.2.aar\6a216e5a422e7a4433f6d784604792b5\AndroidManifest.xml:27:162-184
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:11.0.2] C:\Users\leena\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.0.2.aar\6a216e5a422e7a4433f6d784604792b5\AndroidManifest.xml:27:185-208
+	android:permission
+		ADDED from [com.google.firebase:firebase-analytics:11.0.2] C:\Users\leena\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.0.2.aar\6a216e5a422e7a4433f6d784604792b5\AndroidManifest.xml:27:105-161
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:11.0.2] C:\Users\leena\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.0.2.aar\6a216e5a422e7a4433f6d784604792b5\AndroidManifest.xml:27:17-104
+intent-filter#action:name:com.android.vending.INSTALL_REFERRER
+ADDED from [com.google.firebase:firebase-analytics:11.0.2] C:\Users\leena\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.0.2.aar\6a216e5a422e7a4433f6d784604792b5\AndroidManifest.xml:28:11-30:27
+action#com.android.vending.INSTALL_REFERRER
+ADDED from [com.google.firebase:firebase-analytics:11.0.2] C:\Users\leena\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.0.2.aar\6a216e5a422e7a4433f6d784604792b5\AndroidManifest.xml:29:15-76
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:11.0.2] C:\Users\leena\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.0.2.aar\6a216e5a422e7a4433f6d784604792b5\AndroidManifest.xml:29:23-74
+service#com.google.android.gms.measurement.AppMeasurementService
+ADDED from [com.google.firebase:firebase-analytics:11.0.2] C:\Users\leena\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.0.2.aar\6a216e5a422e7a4433f6d784604792b5\AndroidManifest.xml:32:7-137
+MERGED from [com.google.firebase:firebase-analytics-impl:11.0.2] C:\Users\leena\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-11.0.2.aar\05d3b022a3647eae0f1624a522928869\AndroidManifest.xml:27:7-137
+MERGED from [com.google.firebase:firebase-analytics-impl:11.0.2] C:\Users\leena\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-11.0.2.aar\05d3b022a3647eae0f1624a522928869\AndroidManifest.xml:27:7-137
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:11.0.2] C:\Users\leena\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.0.2.aar\6a216e5a422e7a4433f6d784604792b5\AndroidManifest.xml:32:88-110
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:11.0.2] C:\Users\leena\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.0.2.aar\6a216e5a422e7a4433f6d784604792b5\AndroidManifest.xml:32:111-135
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:11.0.2] C:\Users\leena\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.0.2.aar\6a216e5a422e7a4433f6d784604792b5\AndroidManifest.xml:32:16-87
+service#com.google.android.gms.measurement.AppMeasurementJobService
+ADDED from [com.google.firebase:firebase-analytics:11.0.2] C:\Users\leena\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.0.2.aar\6a216e5a422e7a4433f6d784604792b5\AndroidManifest.xml:33:7-197
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:11.0.2] C:\Users\leena\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.0.2.aar\6a216e5a422e7a4433f6d784604792b5\AndroidManifest.xml:33:148-170
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:11.0.2] C:\Users\leena\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.0.2.aar\6a216e5a422e7a4433f6d784604792b5\AndroidManifest.xml:33:171-195
+	android:permission
+		ADDED from [com.google.firebase:firebase-analytics:11.0.2] C:\Users\leena\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.0.2.aar\6a216e5a422e7a4433f6d784604792b5\AndroidManifest.xml:33:91-147
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:11.0.2] C:\Users\leena\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.0.2.aar\6a216e5a422e7a4433f6d784604792b5\AndroidManifest.xml:33:16-90
+uses-permission#com.google.android.c2dm.permission.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:11.0.2] C:\Users\leena\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.0.2.aar\bd2387c46cd200d2075ccabe2479c2b5\AndroidManifest.xml:22:5-81
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.0.2] C:\Users\leena\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.0.2.aar\bd2387c46cd200d2075ccabe2479c2b5\AndroidManifest.xml:22:22-79
+permission#${applicationId}.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:11.0.2] C:\Users\leena\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.0.2.aar\bd2387c46cd200d2075ccabe2479c2b5\AndroidManifest.xml:24:5-109
+	android:protectionLevel
+		ADDED from [com.google.firebase:firebase-iid:11.0.2] C:\Users\leena\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.0.2.aar\bd2387c46cd200d2075ccabe2479c2b5\AndroidManifest.xml:24:72-107
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.0.2] C:\Users\leena\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.0.2.aar\bd2387c46cd200d2075ccabe2479c2b5\AndroidManifest.xml:24:17-71
+permission#com.example.leena.mypills.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:11.0.2] C:\Users\leena\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.0.2.aar\bd2387c46cd200d2075ccabe2479c2b5\AndroidManifest.xml:24:5-109
+	android:protectionLevel
+		ADDED from [com.google.firebase:firebase-iid:11.0.2] C:\Users\leena\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.0.2.aar\bd2387c46cd200d2075ccabe2479c2b5\AndroidManifest.xml:24:72-107
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.0.2] C:\Users\leena\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.0.2.aar\bd2387c46cd200d2075ccabe2479c2b5\AndroidManifest.xml:24:17-71
+uses-permission#${applicationId}.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:11.0.2] C:\Users\leena\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.0.2.aar\bd2387c46cd200d2075ccabe2479c2b5\AndroidManifest.xml:26:5-78
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.0.2] C:\Users\leena\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.0.2.aar\bd2387c46cd200d2075ccabe2479c2b5\AndroidManifest.xml:26:22-76
+uses-permission#com.example.leena.mypills.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:11.0.2] C:\Users\leena\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.0.2.aar\bd2387c46cd200d2075ccabe2479c2b5\AndroidManifest.xml:26:5-78
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.0.2] C:\Users\leena\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.0.2.aar\bd2387c46cd200d2075ccabe2479c2b5\AndroidManifest.xml:26:22-76
+receiver#com.google.firebase.iid.FirebaseInstanceIdReceiver
+ADDED from [com.google.firebase:firebase-iid:11.0.2] C:\Users\leena\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.0.2.aar\bd2387c46cd200d2075ccabe2479c2b5\AndroidManifest.xml:30:9-35:20
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:11.0.2] C:\Users\leena\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.0.2.aar\bd2387c46cd200d2075ccabe2479c2b5\AndroidManifest.xml:30:85-108
+	android:permission
+		ADDED from [com.google.firebase:firebase-iid:11.0.2] C:\Users\leena\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.0.2.aar\bd2387c46cd200d2075ccabe2479c2b5\AndroidManifest.xml:30:109-169
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.0.2] C:\Users\leena\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.0.2.aar\bd2387c46cd200d2075ccabe2479c2b5\AndroidManifest.xml:30:19-84
+intent-filter#action:name:com.google.android.c2dm.intent.RECEIVE+category:name:${applicationId}
+ADDED from [com.google.firebase:firebase-iid:11.0.2] C:\Users\leena\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.0.2.aar\bd2387c46cd200d2075ccabe2479c2b5\AndroidManifest.xml:31:13-34:29
+intent-filter#action:name:com.google.android.c2dm.intent.RECEIVE+category:name:com.example.leena.mypills
+ADDED from [com.google.firebase:firebase-iid:11.0.2] C:\Users\leena\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.0.2.aar\bd2387c46cd200d2075ccabe2479c2b5\AndroidManifest.xml:31:13-34:29
+action#com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:11.0.2] C:\Users\leena\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.0.2.aar\bd2387c46cd200d2075ccabe2479c2b5\AndroidManifest.xml:32:17-80
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.0.2] C:\Users\leena\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.0.2.aar\bd2387c46cd200d2075ccabe2479c2b5\AndroidManifest.xml:32:25-78
+category#${applicationId}
+ADDED from [com.google.firebase:firebase-iid:11.0.2] C:\Users\leena\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.0.2.aar\bd2387c46cd200d2075ccabe2479c2b5\AndroidManifest.xml:33:17-60
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.0.2] C:\Users\leena\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.0.2.aar\bd2387c46cd200d2075ccabe2479c2b5\AndroidManifest.xml:33:27-58
+category#com.example.leena.mypills
+ADDED from [com.google.firebase:firebase-iid:11.0.2] C:\Users\leena\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.0.2.aar\bd2387c46cd200d2075ccabe2479c2b5\AndroidManifest.xml:33:17-60
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.0.2] C:\Users\leena\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.0.2.aar\bd2387c46cd200d2075ccabe2479c2b5\AndroidManifest.xml:33:27-58
+receiver#com.google.firebase.iid.FirebaseInstanceIdInternalReceiver
+ADDED from [com.google.firebase:firebase-iid:11.0.2] C:\Users\leena\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.0.2.aar\bd2387c46cd200d2075ccabe2479c2b5\AndroidManifest.xml:39:9-119
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:11.0.2] C:\Users\leena\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.0.2.aar\bd2387c46cd200d2075ccabe2479c2b5\AndroidManifest.xml:39:93-117
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.0.2] C:\Users\leena\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.0.2.aar\bd2387c46cd200d2075ccabe2479c2b5\AndroidManifest.xml:39:19-92
+service#com.google.firebase.iid.FirebaseInstanceIdService
+ADDED from [com.google.firebase:firebase-iid:11.0.2] C:\Users\leena\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.0.2.aar\bd2387c46cd200d2075ccabe2479c2b5\AndroidManifest.xml:43:9-47:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:11.0.2] C:\Users\leena\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.0.2.aar\bd2387c46cd200d2075ccabe2479c2b5\AndroidManifest.xml:43:83-106
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.0.2] C:\Users\leena\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.0.2.aar\bd2387c46cd200d2075ccabe2479c2b5\AndroidManifest.xml:43:18-82
+intent-filter#action:name:com.google.firebase.INSTANCE_ID_EVENT
+ADDED from [com.google.firebase:firebase-iid:11.0.2] C:\Users\leena\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.0.2.aar\bd2387c46cd200d2075ccabe2479c2b5\AndroidManifest.xml:44:13-46:29
+	android:priority
+		ADDED from [com.google.firebase:firebase-iid:11.0.2] C:\Users\leena\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.0.2.aar\bd2387c46cd200d2075ccabe2479c2b5\AndroidManifest.xml:44:28-51
+action#com.google.firebase.INSTANCE_ID_EVENT
+ADDED from [com.google.firebase:firebase-iid:11.0.2] C:\Users\leena\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.0.2.aar\bd2387c46cd200d2075ccabe2479c2b5\AndroidManifest.xml:45:17-79
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.0.2] C:\Users\leena\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.0.2.aar\bd2387c46cd200d2075ccabe2479c2b5\AndroidManifest.xml:45:25-77
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:11.0.2] C:\Users\leena\.gradle\caches\transforms-1\files-1.1\firebase-common-11.0.2.aar\e0701ac5d9ef5a0d5ca993c31cde6669\AndroidManifest.xml:6:9-194
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:11.0.2] C:\Users\leena\.gradle\caches\transforms-1\files-1.1\firebase-common-11.0.2.aar\e0701ac5d9ef5a0d5ca993c31cde6669\AndroidManifest.xml:6:19-78
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:11.0.2] C:\Users\leena\.gradle\caches\transforms-1\files-1.1\firebase-common-11.0.2.aar\e0701ac5d9ef5a0d5ca993c31cde6669\AndroidManifest.xml:6:144-168
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:11.0.2] C:\Users\leena\.gradle\caches\transforms-1\files-1.1\firebase-common-11.0.2.aar\e0701ac5d9ef5a0d5ca993c31cde6669\AndroidManifest.xml:6:169-192
+	android:name
+		ADDED from [com.google.firebase:firebase-common:11.0.2] C:\Users\leena\.gradle\caches\transforms-1\files-1.1\firebase-common-11.0.2.aar\e0701ac5d9ef5a0d5ca993c31cde6669\AndroidManifest.xml:6:79-143

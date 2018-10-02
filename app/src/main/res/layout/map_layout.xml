@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.leena.mypills.MainActivity">
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+
+    <!--<include-->
+        <!--layout="@layout/app_bar_layout"-->
+        <!--android:id="@+id/main_page_toolbar"-->
+
+        <!--&gt;-->
+
+    <!--</include>-->
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/main_page_toolbar">
+
+        <com.mmi.MapmyIndiaMapView
+            android:id="@+id/map"
+            android:layout_width="match_parent"
+
+            android:layout_height="match_parent"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true">
+
+
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="match_parent"
+                android:layout_height="92dp"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentStart="true"
+                android:background="#4682b4" />
+
+            <Button
+
+                android:id="@+id/currloc"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginBottom="27dp"
+                android:layout_marginEnd="20dp"
+                android:drawableLeft="@drawable/rsz_location"
+                android:drawablePadding="1dp"
+                android:text="locate me!"
+                android:textColor="@color/whitee"
+                android:textSize="10dp"
+
+                android:textStyle="bold" />
+
+            <fragment
+
+                android:id="@+id/place_autocomplete"
+                android:name="com.google.android.gms.location.places.ui.PlaceAutocompleteFragment"
+                android:layout_width="304dp"
+                android:layout_height="55dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentTop="true"
+                android:tag="Search" />
+
+            <Button
+                android:id="@+id/regev"
+                android:layout_width="110dp"
+                android:layout_height="50dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignTop="@+id/currloc"
+                android:layout_marginStart="11dp"
+                android:drawableLeft="@drawable/rsz_calendar"
+                android:text="Register Event"
+                android:textColor="@color/whitee"
+                android:textSize="10dp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/imageButton"
+                android:layout_width="116dp"
+                android:layout_height="50dp"
+                android:layout_alignTop="@+id/currloc"
+                android:layout_centerHorizontal="true"
+                android:drawableLeft="@drawable/rsz_map"
+                android:text="Find Event"
+                android:textColor="@color/whitee"
+                android:textSize="10dp"
+                android:textStyle="bold" />
+
+            <ImageButton
+                android:id="@+id/navclick"
+                android:layout_width="63dp"
+                android:layout_height="55dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:background="@color/whitee"
+
+                app:srcCompat="@drawable/rsz_ham" />
+
+
+        </com.mmi.MapmyIndiaMapView>
+
+    </RelativeLayout>
+</RelativeLayout>
+    <android.support.design.widget.NavigationView
+        android:id="@+id/navigation_view"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:layout_marginBottom="3dp"
+        app:menu="@menu/navigation_menu">
+
+    </android.support.design.widget.NavigationView>
+
+
+</android.support.v4.widget.DrawerLayout>
