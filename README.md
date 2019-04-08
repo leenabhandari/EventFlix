@@ -1,5 +1,5 @@
 # EventFlix
-A location-based Android app to locate and create events.
+A location-based Android app to locate and create events built using MapMyIndia APIs.
 
 Built by-
 1. Leena Bhandari
