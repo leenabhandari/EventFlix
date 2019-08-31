@@ -3,7 +3,7 @@ A location-based Android app to locate and create events built using MapMyIndia 
 
 The screenshots would describe the app better:
 
-![Launch screen](https://github.com/leenabhandari/EventFlix/blob/master/screenshots/Screenshot_20190408-221211.png)
+![Launch screen](https://github.com/leenabhandari/EventFlix/blob/master/screenshots/Screenshot_20190408-221211.png){:height="50%" width="50%"}
 ![Image description](https://github.com/leenabhandari/EventFlix/blob/master/screenshots/Screenshot_20190408-221953.png)
 ![Image description](https://github.com/leenabhandari/EventFlix/blob/master/screenshots/Screenshot_20190408-222107.png)
 ![Image description](https://github.com/leenabhandari/EventFlix/blob/master/screenshots/Screenshot_20190408-222150.png)
